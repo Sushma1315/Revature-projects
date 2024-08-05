@@ -1,5 +1,7 @@
 package com.facebook.controller;
 
+import com.facebook.Entity.FacebookUser;
+
 public interface facebookControllerInterface {
 
 	void createProfileContoller();
@@ -14,6 +16,6 @@ public interface facebookControllerInterface {
 
 	void viewAllProfileController();
 
-	void loginProfileController();
+	void  loginProfileController();
 
 }
